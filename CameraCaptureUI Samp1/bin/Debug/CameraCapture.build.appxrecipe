@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NECROPHAGIAVAIO</Machine>
+    <WindowsUser>slipk</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>Microsoft.SDKSamples.CameraCaptureUI.CS</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</PackageIdentityPublisher>
+    <IntermediateOutputPath>c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\CameraCapture.exe">
+      <PackagePath>CameraCapture.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\Assets\microsoft-sdk.png">
+      <PackagePath>Assets\microsoft-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\Assets\placeholder-sdk.png">
+      <PackagePath>Assets\placeholder-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\Assets\smallTile-sdk.png">
+      <PackagePath>Assets\smallTile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\Assets\splash-sdk.png">
+      <PackagePath>Assets\splash-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\Assets\squareTile-sdk.png">
+      <PackagePath>Assets\squareTile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\Assets\storeLogo-sdk.png">
+      <PackagePath>Assets\storeLogo-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\Assets\tile-sdk.png">
+      <PackagePath>Assets\tile-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\Assets\windows-sdk.png">
+      <PackagePath>Assets\windows-sdk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\CameraCapture.xr.xml">
+      <PackagePath>CameraCapture.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\Sample-Utils\SampleTemplateStyles.xbf">
+      <PackagePath>Sample-Utils\SampleTemplateStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\CaptureVideo.xbf">
+      <PackagePath>CaptureVideo.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\CapturePhoto.xbf">
+      <PackagePath>CapturePhoto.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\slipk\documents\visual studio 2015\Projects\CameraCaptureUI Samp1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
